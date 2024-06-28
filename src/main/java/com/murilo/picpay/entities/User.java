@@ -1,5 +1,6 @@
 package com.murilo.picpay.entities;
 
+import com.murilo.picpay.dtos.user.UserDTO;
 import com.murilo.picpay.enums.UserType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -38,4 +39,15 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private UserType userType;
+
+    public  User(UserDTO data){
+        this.firstName = data.firstName();
+        this.lastName = data.lastName();
+        this.balance = data.balance();
+        this.userType = data.userType();
+        this.password = data.password();
+        this.email = data.email();
+        this.document = data.document();
+
+    }
 }
