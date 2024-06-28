@@ -1,4 +1,4 @@
-package com.murilo.picpay.domain.user.enums;
+package com.murilo.picpay.enums;
 
 
 public enum UserType {

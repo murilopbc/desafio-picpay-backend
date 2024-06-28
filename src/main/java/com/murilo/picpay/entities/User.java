@@ -1,6 +1,6 @@
-package com.murilo.picpay.domain.user;
+package com.murilo.picpay.entities;
 
-import com.murilo.picpay.domain.user.enums.UserType;
+import com.murilo.picpay.enums.UserType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
