@@ -5,6 +5,6 @@ CREATE TABLE users (
     document VARCHAR(255) UNIQUE,
     email VARCHAR(255) UNIQUE,
     password VARCHAR(255),
-    balance DECIMAL(19, 4),
+    balance DECIMAL(10, 2),
     user_type VARCHAR(50)
 );

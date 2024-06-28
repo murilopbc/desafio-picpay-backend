@@ -1,6 +1,6 @@
 CREATE TABLE transactions (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    amount DECIMAL(19, 4),
+    amount DECIMAL(10, 2),
     sender_id BIGINT,
     receiver_id BIGINT,
     data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
