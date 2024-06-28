@@ -1,6 +1,6 @@
 package com.murilo.picpay.services;
 
-import com.murilo.picpay.dtos.notification.NotificationDTO;
+import com.murilo.picpay.dtos.NotificationDTO;
 import com.murilo.picpay.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

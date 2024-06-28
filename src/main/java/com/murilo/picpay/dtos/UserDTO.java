@@ -1,4 +1,4 @@
-package com.murilo.picpay.dtos.user;
+package com.murilo.picpay.dtos;
 
 import com.murilo.picpay.enums.UserType;
 

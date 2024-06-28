@@ -1,6 +1,6 @@
 package com.murilo.picpay.entities;
 
-import com.murilo.picpay.dtos.user.UserDTO;
+import com.murilo.picpay.dtos.UserDTO;
 import com.murilo.picpay.enums.UserType;
 import jakarta.persistence.*;
 import lombok.*;

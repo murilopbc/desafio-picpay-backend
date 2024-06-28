@@ -1,6 +1,6 @@
 package com.murilo.picpay.services;
 
-import com.murilo.picpay.dtos.transaction.TransactionDTO;
+import com.murilo.picpay.dtos.TransactionDTO;
 import com.murilo.picpay.entities.Transaction;
 import com.murilo.picpay.entities.User;
 import com.murilo.picpay.repositories.TransactionRepository;

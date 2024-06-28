@@ -1,6 +1,6 @@
 package com.murilo.picpay.controllers;
 
-import com.murilo.picpay.dtos.user.UserDTO;
+import com.murilo.picpay.dtos.UserDTO;
 import com.murilo.picpay.entities.User;
 import com.murilo.picpay.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
