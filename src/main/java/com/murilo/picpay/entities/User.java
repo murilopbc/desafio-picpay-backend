@@ -3,11 +3,7 @@ package com.murilo.picpay.entities;
 import com.murilo.picpay.dtos.user.UserDTO;
 import com.murilo.picpay.enums.UserType;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-
+import lombok.*;
 import java.math.BigDecimal;
 
 @Entity(name = "users")
@@ -15,6 +11,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode(of="id")
 
 public class User {
@@ -48,6 +45,5 @@ public class User {
         this.password = data.password();
         this.email = data.email();
         this.document = data.document();
-
     }
 }
